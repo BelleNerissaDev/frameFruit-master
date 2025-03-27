@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+button{
+  outline: none !important;
+}
+
+
+.text-purple {
+  color: #5f3473;
+}
+
+
+.navbar-nav a{
+  font-size: 18px !important
+}
+
+.app-header {
+  background-color: #5f3473;
+  color: white;
+}
+.bg-primary{
+  background-color: #5f3473 !important;
+  color: white;
+}
+
+.btn-primary{
+  background: #5f3473;
+  border: white;
+  color: white;
+}
+.btn-primary:hover{
+  background: white;
+  color: #5f3473;
+  border: 1px solid #5f3473;
+  outline: #5f3473;
+}
+.btn-primary:focus{
+  color: white;
+  background: #5f3473;
+  border: 1px solid white;
+  outline: #5f3473;
+  box-shadow: none;
+}
+
+
+.btn-outline-primary{
+  color: #5f3473;
+  border: 1px solid #5f3473;
+}
+.btn-outline-primary:hover{
+  color: white;
+  background: #5f3473;
+  border: none;
+  outline: #5f3473;
+}
+.btn-outline-primary:focus{
+  color: white;
+  background: #5f3473;
+  border: 1px solid white;
+  outline: #5f3473;
+  box-shadow: none;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
